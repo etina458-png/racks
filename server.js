@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 5000;
 
 // ✅ CORS FIRST
 app.use(cors({
-  origin: 'http://127.0.0.1:5500'
+  origin: 'https://racksba.vercel.app'
 }));
 
 // ✅ THEN body parser
